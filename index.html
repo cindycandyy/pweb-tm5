@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    @font-face {
+        font-family: 'Helvetica Black';
+        src: url('helvetica black.otf');
+    }
+
+    h1,
+    p {
+        font-family: 'Helvetica Black', Arial, sans-serif;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKEA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-white text-gray-800">
+    <!-- Header -->
+    <header class="flex items-center justify-between p-4 bg-white shadow-md">
+        <div class="flex items-center">
+            <button class="text-2xl">
+                <i class="fas fa-bars"></i>
+            </button>
+            <img alt="IKEA Logo" class="h-8 ml-4" src="icons8-ikea-144 2.png" />
+        </div>
+        <div class="flex items-center w-1/2">
+            <input class="w-full p-2 border rounded-full" placeholder="Search..." type="text" />
+        </div>
+        <div class="flex items-center space-x-4">
+            <i class="fas fa-truck"></i>
+            <i class="fas fa-shopping-bag"></i>
+            <i class="fas fa-heart"></i>
+            <img alt="User Avatar" class="h-10 w-10 rounded-full"
+                src="https://storage.googleapis.com/a1aa/image/qeO5InNSbc3yE6LqhHMC54PnNhSI5QVIKhWqnvJRIvfHUviTA.jpg" />
+        </div>
+
+    </header>
+    <!-- Main Banner -->
+    <section class="relative w-full h-screen">
+        <img alt="Living room with IKEA furniture" class="w-full h-full object-cover"
+            src="https://storage.googleapis.com/a1aa/image/3BkBaY5byHZKOdC93hoqEeJnefU2mSgmehIXZQq5CfKAg6VcC.jpg" />
+        <div class="absolute top-1/4 left-10 text-white">
+            <div
+                style="width: 100%; height: 100%; color: #252526; font-size: 64px; font-family: Helvetica Black Original; word-wrap: break-word">
+                Transform Your Home with IKEA</div>
+            <div
+                style="width: 100%; height: 100%; color: white; font-size: 32px; font-family: Arial; word-wrap: break-word">
+                Discover affordable furniture and home accessories</div>
+    </section>
+
+
+    <!-- Products Section -->
+    <section class="py-8">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <img alt="Pendant lamp shade, white stained oak veneer, 40 cm" class="mx-auto"
+                        src="https://storage.googleapis.com/a1aa/image/erZhkllqo7VvIqZHKk2n6TaWhaIeHKm8pJQLRWfz3heLQ9KOB.jpg" />
+                    <h2 class="mt-4 font-bold">DYKARKLOCKA</h2>
+                    <p class="text-gray-600">Pendant lamp shade, white stained oak veneer, 40 cm</p>
+                    <p class="mt-2 text-xl font-bold">59,99€</p>
+                    <div class="flex justify-center space-x-2 mt-2">
+                        <button class="text-yellow-500"><i class="fas fa-shopping-cart"></i></button>
+                        <button class="text-gray-500"><i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img alt="Candlestick/tealight holder, bright red, 29 cm" class="mx-auto"
+                        src="https://storage.googleapis.com/a1aa/image/4sk6MhUowUJoKlLjWrVB2ht6ziGm9JMf1LlJSxfSQMQBUviTA.jpg" />
+                    <h2 class="mt-4 font-bold">SILVERPÄRON</h2>
+                    <p class="text-gray-600">Candlestick/tealight holder, bright red, 29 cm</p>
+                    <p class="mt-2 text-xl font-bold">9,99€</p>
+                    <div class="flex justify-center space-x-2 mt-2">
+                        <button class="text-yellow-500"><i class="fas fa-shopping-cart"></i></button>
+                        <button class="text-gray-500"><i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img alt="Armchair with cushion, rattan/Risane natural" class="mx-auto"
+                        src="https://storage.googleapis.com/a1aa/image/YplJRpnJ9R5nCteApmy88DWk9RmEe3p1l8opwnIA537EUviTA.jpg" />
+                    <h2 class="mt-4 font-bold">FRYKSÅS</h2>
+                    <p class="text-gray-600">Armchair with cushion, rattan/Risane natural</p>
+                    <p class="mt-2 text-xl font-bold">319€</p>
+                    <div class="flex justify-center space-x-2 mt-2">
+                        <button class="text-yellow-500"><i class="fas fa-shopping-cart"></i></button>
+                        <button class="text-gray-500"><i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img alt="Pouffe, with storage/Tonerud red" class="mx-auto"
+                        src="https://storage.googleapis.com/a1aa/image/ldUQGIRNOrZRJ1GGwEwIB5M7SAH0zLLmYgAlPeAgCFNEqXxJA.jpg" />
+                    <h2 class="mt-4 font-bold">FÖRLUNDA</h2>
+                    <p class="text-gray-600">Pouffe, with storage/Tonerud red</p>
+                    <p class="mt-2 text-xl font-bold">59€</p>
+                    <div class="flex justify-center space-x-2 mt-2">
+                        <button class="text-yellow-500"><i class="fas fa-shopping-cart"></i></button>
+                        <button class="text-gray-500"><i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Details Section -->
+    <section class="py-8 bg-gray-100">
+        <div class="container mx-auto flex flex-col lg:flex-row">
+            <div class="lg:w-1/2">
+                <img alt="Living room with IKEA furniture" class="w-full h-auto"
+                    src="https://storage.googleapis.com/a1aa/image/3BkBaY5byHZKOdC93hoqEeJnefU2mSgmehIXZQq5CfKAg6VcC.jpg" />
+            </div>
+            <div class="lg:w-1/2 lg:pl-8 mt-8 lg:mt-0">
+                <h2 class="text-3xl font-bold">DYKARKLOCKA</h2>
+                <p class="mt-4 text-gray-700">It's a neat storage shelf to begin with. Come a step closer and you'll see
+                    that EKET cabinets are like building blocks for your very own design. Combine colours (or not), size
+                    and placement, and you'll be amazed at the wall art you can accomplish!</p>
+                <button class="mt-4 px-4 py-2 border border-gray-800 rounded-full text-gray-800">See all EKET cube
+                    shelves &amp; cabinets</button>
+            </div>
+        </div>
+    </section>
+    <!-- Combo Section -->
+    <section class="py-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold">Find your favourite combo</h2>
+            <div class="flex justify-center mt-4 space-x-4">
+                <img alt="Combo 1" class="mx-2"
+                    src="https://storage.googleapis.com/a1aa/image/M98VpchCdbKSLlMeXejcjZgB6QOYkXBd9BRSoe8kyBj3neKOB.jpg" />
+                <img alt="Combo 2" class="mx-2"
+                    src="https://storage.googleapis.com/a1aa/image/lV0tRWVCSbZjJRLE8yT9jRQXQa9bpJjIqX4z65qh3UhfpXxJA.jpg" />
+                <img alt="Combo 3" class="mx-2"
+                    src="https://storage.googleapis.com/a1aa/image/twttJgEMjEIxNdLbOysCQm2fXTh0Lpp32Wt0MPgYNwweTviTA.jpg" />
+                <img alt="Combo 4" class="mx-2"
+                    src="https://storage.googleapis.com/a1aa/image/EjO23cgFDaKfR6AVXctlnA5oebpfHfvqlthufCYOFtMvg6VcC.jpg" />
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-200 py-8">
+        <div class="container mx-auto flex justify-between">
+            <img alt="IKEA Logo" class="h-8" src="icons8-ikea-144 2.png" />
+            <div class="flex space-x-8">
+                <div>
+                    <h3 class="font-bold">Services</h3>
+                    <ul class="mt-2 space-y-2">
+                        <li>Home delivery</li>
+                        <li>Click &amp; Collect</li>
+                        <li>Remote sales</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold">Help</h3>
+                    <ul class="mt-2 space-y-2">
+                        <li>Lost items</li>
+                        <li>Contact us</li>
+                        <li>Spare parts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
